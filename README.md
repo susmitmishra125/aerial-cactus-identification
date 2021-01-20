@@ -7,9 +7,4 @@ This algorithm uses transfer learning to estimate the parameters.
 
 ![](demo.gif)
 
-    <iframe width="560" height="315"
-src="https://www.youtube.com/embed/v=1siY_fmVFvI" 
-<!-- https://www.youtube.com/watch?v=1siY_fmVFvI -->
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+[![demo video](https://img.youtube.com/vi/1siY_fmVFvI/0.jpg)](https://www.youtube.com/watch?v=1siY_fmVFvI)<!-- https://www.youtube.com/watch?v=1siY_fmVFvI -->
