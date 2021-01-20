@@ -6,3 +6,10 @@ Competition link : https://www.kaggle.com/c/aerial-cactus-identification
 This algorithm uses transfer learning to estimate the parameters.
 
 ![](demo.gif)
+
+    <iframe width="560" height="315"
+src="https://www.youtube.com/embed/v=1siY_fmVFvI" 
+<!-- https://www.youtube.com/watch?v=1siY_fmVFvI -->
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
