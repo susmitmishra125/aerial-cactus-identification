@@ -1,0 +1,11 @@
+data
+Images
+sample_images
+__pycache__
+.git
+.gitignore
+weights_epoch_30.h5
+README.md
+geckodriver.log
+demo.gif
+Aerial_cactus_indentification.ipynb
