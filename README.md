@@ -1,5 +1,7 @@
 # [Cactus Identification using Transfer Learning](https://www.kaggle.com/c/aerial-cactus-identification)
-This is the source code for predicting whether a image contains a cactus or not. This project is inspired from the kaggle competition which aims to build a system for autonomous surveillance of protected areas. It tasked us with creation of an algorithm that can identify a specific type of cactus in aerial imagery.
+
+This is the source code for predicting whether a image contains a cactus or not. This project is inspired from the kaggle competition which aims to build a 
+system for autonomous surveillance of protected areas. It tasked us with creation of an algorithm that can identify a specific type of cactus in aerial imagery.
 ## [Dataset](https://www.kaggle.com/c/aerial-cactus-identification/data)
 This dataset contains a large number of 32 x 32 thumbnail images containing aerial photos of a columnar cactus (Neobuxbaumia tetetzo). Kaggle has resized the images from the original dataset to make them uniform in size. The file name of an image corresponds to its id.
 ## Methodology
@@ -21,6 +23,9 @@ Based on the accuracy and loss graphs, more epochs may result in even greater im
 1. This project is inspired from Transfer Learning using Pretrained ConvNets on [TensorFlow.org](https://www.tensorflow.org/tutorials/images/transfer_learning)
 2. M. Sandler, A. Howard, M. Zhu, A. Zhmonginov, L. C. Chen, [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/pdf/1801.04381.pdf) (2019), Google Inc.
 
-
+## API using heroku: [URL](https://aerial-cactus-identification.herokuapp.com/)
+1. Created a api which takes image as input and returns whether the image is a cacuts image or not
+2. Used Flask for creating the api and heroku for server
+3. The server uses pickle file of the model we created using transfer Learing.
 ## Takeaway
 The accuracy of the model can be further improved by finetuning the trained layers.
