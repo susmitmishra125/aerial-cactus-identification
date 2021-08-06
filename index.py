@@ -23,6 +23,9 @@ def submit_file():
 						return redirect(request.url)
 				if file:
 						filename = secure_filename(file.filename)
+						if(filename.split('.')[-1]!='jpg'):
+							flash("Error\nUse only jpg format")
+							return redirect(request.url)
 						file.save(os.path.join(app.config['UPLOAD_FOLDER'],filename))
 						getPrediction(filename)
 						output = getPrediction(filename)
